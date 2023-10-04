@@ -1,0 +1,257 @@
+.main__header{
+   background-color: #EEEEEE;
+   padding: 70px 43px 52px 70px;
+   display: flex;
+   gap: 42px;
+   flex-direction: row;
+}
+
+.main__header-block{
+   padding: 20px;
+   display: flex;
+   gap: 45px;
+   flex-direction: column;
+   max-width: 672px;
+   width: 100%;
+}
+
+.main__header-block-title{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 35px;
+}
+
+.main__header-block-description{
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+}
+
+.main__header-block-text{
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+}
+
+.main__header-block-button{
+   max-width: 200px;
+   width: 100%;
+   color: white;
+   background-color: red;
+   border: none;
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+   padding: 20px 50px;
+   cursor: pointer;
+}
+
+.main__header-block-button:hover{
+   background-color: white;
+   color: red;
+   transition: all 0.3s ease-in-out;
+}
+
+.main__header-img{
+   max-width: 614px;
+   height: 321px;
+   width: 100%;
+}
+.main__header-img img{
+   max-width: 614px;
+   height: 321px;
+   width: 100%;
+}
+
+.main__section{
+   padding-top: 35px;
+   padding-right: 170px;
+}
+
+.main__section-title{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 65px;
+}
+
+.main__section-holder{
+   display: flex;
+   gap: 35px;
+}
+
+.main__section-nav{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   max-width: 170px;
+   width: 100%;
+   height: 200px;
+   position: sticky;
+   top: 50px; 
+}
+
+.main__section-nav-list{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.main__section-nav-item a{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   text-decoration: none;
+   color: black;
+   cursor:pointer;
+}
+.main__section-nav-item:hover a{
+   color: red;
+}
+
+.main__section-block{
+   display: flex;
+   flex-direction: column;
+   gap: 140px;
+}
+
+.main__section-block-item{
+   display: flex;
+   gap: 70px;
+}
+
+
+.main__section-block-img {
+   max-width:476px;
+   height: 321px;
+   width: 100%;
+}
+
+.main__section-block-img img{
+   max-width:476px;
+   height: 321px;
+   width: 100%;
+}
+
+.main__section-block-item:nth-child(2){
+   flex-direction: row-reverse;
+}
+
+.main__section-block-content{
+   display: flex;
+   flex-direction: column;
+   gap: 37px;
+   max-width: 500px;
+   width: 100%;
+   padding-left: 30px;
+}
+
+.main__section-block-title{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+}
+
+.main__section-block-decription{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.main__section-block-text{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+}
+
+
+
+.main__section-block-button button{
+   color: white;
+   background-color: red;
+   border: none;
+   font-family: 'Inter', sans-serif;
+   max-width: 200px;
+   width: 100%;
+   font-size: 20px;
+   padding: 20px 50px;
+   cursor: pointer;
+}
+.main__section-block-button button:hover{
+   background-color: white;
+   color: red;
+   transition: all 0.3s ease-in-out;
+}
+
+
+.main__slides{
+   margin-top: 100px;
+   position: relative;
+}
+
+.main__slides-title{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+
+
+.main__slides-item{
+   display: flex;
+   gap: 40px;
+   padding: 0px 70px;
+   align-items: center;
+}
+
+.main__slides-img{
+   max-width: 577px;
+   width: 100%;
+   height: 486px;
+}
+.main__slides-img img{
+   max-width: 577px;
+   width: 100%;
+   height: 486px;
+}
+
+.main__slides-content{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 100%;
+}
+
+.main__slides-content-title{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.main__slides-content-description{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+}
+
+.main__slides-content-text{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.main__slides-content-button button{
+   color: white;
+   background-color: red;
+   border: none;
+   font-family: 'Inter', sans-serif;
+   max-width: 200px;
+   width: 100%;
+   font-size: 20px;
+   padding: 20px 50px;
+   cursor: pointer;
+}
+.main__slides-content-button button:hover{
+   background-color: white;
+   color: red;
+   transition: all 0.3s ease-in-out;
+}
