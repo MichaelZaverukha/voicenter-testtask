@@ -4,7 +4,7 @@
          <div class="main__header-block">
             <h2 class="main__header-block-title">{{ templateData.testTaskHeaderTitle }}</h2>
             <p class="main__header-block-description">{{ templateData.testTaskHeaderSubtitle }}</p>
-            <p class="main__header-block-text">{{ templateData.testTaskHeaderText }}</p>
+            <p class="main__header-block-text"> {{ fixHeaderText }} </p>
             <button class="main__header-block-button">Read More</button>
          </div>
          <div class="main__header-img"><img :src="templateData.testTaskHeaderImage" alt=""></div>
@@ -149,6 +149,8 @@ const slidesArray = JSON.parse(templateData.testTaskSlidesBlockSlides)
 function removeHtmlTags(input) {
   return input.replace(/<\/?[^>]+(>|$)/g, "");
 }
+const fixHeaderText = removeHtmlTags(templateData.testTaskHeaderText);
+
 const cleanTextArray = itemsArray.map(item => {
   return {
     ...item,
